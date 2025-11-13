@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Eggs Scanner</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-right">
+                    <a href="index.html" class="nav-btn btn-red">Home</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <h1 class="hero-title">
+                             Your pocket <span class="text-yellow">Egg-spert in <br>
+                            Freshness
+                        </h1>
+                        <p class="hero-description">
+                            Meet your kitchen’s new best friend! This AI-powered tool scans your eggs and tells you if they’re fresh, No more egg-speriments gone wrong.
+                        </p>
+                        <!-- <a href="#upload-section" class="btn btn-red hero-cta">SCAN YOUR EGGS HERE</a>
+                        <p class="click-here">Click here!</p> -->
+                    </div>
+                    <div class="hero-right">
+                        <div class="yellow-circle"></div>
+                        <div class="egg-bowl">
+                            <div class="bowl-container">
+                                <!-- Using CSS to create egg bowl representation -->
+                                <div class="bowl"></div>
+                                <div class="eggs">
+                                    <div class="egg"></div>
+                                    <div class="egg"></div>
+                                    <div class="egg"></div>
+                                    <div class="egg"></div>
+                                    <div class="egg"></div>
+                                    <div class="egg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Steps Section -->
+        <section class="process-steps">
+        <div class="container">
+            <div class="steps-grid">
+            <div class="step">
+                <div class="step-icon yellow">1</div>
+                <h3 class="step-title">Upload<br>the Image<br>of the Eggs</h3>
+            </div>
+            <div class="step">
+                <div class="step-icon yellow">2</div>
+                <h3 class="step-title">Wait for the<br>Results</h3>
+            </div>
+            <div class="step">
+                <div class="step-icon green">3</div>
+                <h3 class="step-title">Results Are<br>Ready!</h3>
+            </div>
+            </div>
+        </div>
+        </section>
+
+         <!-- Guidelines Section -->
+        <section class="guidelines">
+            <div class="container">
+                
+                <!-- Guidelines for Single Egg -->
+               <div class="guideline-section">
+                    <div class="guideline-header yellow">Guidelines for Single Egg</div>
+                    <div class="guideline-content">
+                        <div class="guideline-columns-container">
+                            <div class="guideline-column">
+                                <div class="guideline-content-wrapper">
+                                    <div class="guideline-text">
+                                        <ol>
+                                            <li>Go to a shaded/dark area (the darker it is, the better).</li>
+                                            <li>Place Egg On top of a source of light, enough to see the color of the egg inside (Flashlight, Camera light, etc.).</li>
+                                             <li>Take a picture of the top view of the lighted/candled egg.</li>
+                                            <li>Upload the egg to know the results.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guideline-column">
+                                <div class="guideline-content-wrapper">
+                                    <div class="guideline-image">
+                               <img src="images/SINGLE.png" alt="Single egg example" class="zoomable" loading="lazy">
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Guidelines for Egg Scanning by Batch -->
+                <div class="guideline-section">
+                    <div class="guideline-header yellow">Guidelines for Egg Scanning by Batch</div>
+                    <div class="guideline-content">
+                        <div class="guideline-columns-container">
+                            <div class="guideline-column">
+                                <div class="guideline-content-wrapper">
+                                    <div class="guideline-text">
+                                        <ol>
+                                            <li>Go to a shaded/dark area (the darker it is, the better).</li>
+                                            <li>Prepare your DIY Egg Carton with Lights (Scroll down to see the instructions).</li>
+                                             <li>Place the eggs on the DIY Egg Carton.</li>
+                                            <li>Take a picture of the top view of the lighted/candled eggs.</li>
+                                            <li>Upload the picture to know the results.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guideline-column">
+                                <div class="guideline-content-wrapper">
+                                    <div class="guideline-image">
+                               <img src="images/BATCH.png" alt="Batch egg example" class="zoomable" loading="lazy">
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 
+                <div class="text-center mb-3">
+                    <a href="#upload-section" class="btn btn-red">SCAN YOUR EGGS NOW!</a>
+                    <p class="click-here">Click here!</p>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section id="upload-section" class="upload-section">
+            <div class="container">
+
+
+                    <div class="warning-text">
+                        <p>⚠️ Upload one egg to Single Scan, or 6 eggs in a tray to Batch Scan for the best results!</p>
+                    </div>
+
+
+                <!-- Upload Options -->
+                <div class="upload-options">
+                    <div class="upload-choice">
+                        <h3>Single Egg Scan</h3>
+                        <p>Upload one egg image for individual analysis</p>
+                        <a href="individual-upload.html" class="btn btn-red">SCAN EGG!</a>
+                    </div>
+                    <div class="upload-choice">
+                        <h3>Batch Egg Scan</h3>
+                        <p>Upload multiple egg images for batch analysis</p>
+                        <a href="batch-upload.html" class="btn btn-red">SCAN EGGS NOW!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       
+
+         <!-- DIY Section -->
+        <section class="diy-panel" aria-labelledby="diy-title">
+            <div class="container">
+                <h2 id="diy-title" class="diy-title">DIY Egg Carton with Lights</h2>
+
+                <div class="diy-card">
+                    <div class="diy-steps">
+                        <div class="diy-step" aria-label="Step 1: Materials">
+                            <div>
+                                <div style="display:flex;align-items:flex-start;">
+                                    <div class="diy-step-number">1</div>
+                                    <div class="diy-text">
+                                        <strong>Materials</strong>
+                                        <div style="margin-top:6px;font-size:0.95rem;color: #374151;">
+                                            Prepare an Egg carton, and 6 small LED lights.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diy-thumb">
+                                <img src="images/STEP 1.png" alt="Materials" class="zoomable" loading="lazy">
+                            </div>
+                        </div>
+
+                        <div class="diy-step" aria-label="Step 2: Setup">
+                            <div>
+                                <div style="display:flex;align-items:flex-start;">
+                                    <div class="diy-step-number">2</div>
+                                    <div class="diy-text">
+                                        <strong>Setup</strong>
+                                        <div style="margin-top:6px;font-size:0.95rem;color: #374151;">
+                                            Cut/Poke small holes under each cell and place the lights underneath.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diy-thumb">
+                                <img src="images/STEP 2.png" alt="Setup" class="zoomable" loading="lazy">
+                            </div>
+                        </div>
+
+                        <div class="diy-step" aria-label="Step 3: Use">
+                            <div>
+                                <div style="display:flex;align-items:flex-start;">
+                                    <div class="diy-step-number">3</div>
+                                    <div class="diy-text">
+                                        <strong>Use</strong>
+                                        <div style="margin-top:6px;font-size:0.95rem;color: #374151;">
+                                            Switch on LED lights, place an egg on each cell, then capture the top view of the lighted eggs.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diy-thumb">
+                                <img src="images/STEP 3.png" alt="Final" class="zoomable" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <!-- Footer content can be added here if needed -->
+            </div>
+        </footer>
+    </main>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Image Viewer Modal -->
+<div id="image-viewer" class="image-viewer" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="iv-close" aria-label="Close image viewer">&times;</button>
+    <img class="iv-img" src="" alt="">
+</div>
+
+<script>
+    // image viewer: click any .zoomable to open modal (improved)
+    (function(){
+        const viewer = document.getElementById('image-viewer');
+        const ivImg = viewer.querySelector('.iv-img');
+        const ivClose = viewer.querySelector('.iv-close');
+        const zoomables = document.querySelectorAll('.zoomable');
+        let lastFocused = null;
+
+        function open(src, alt){
+            // remember focus
+            lastFocused = document.activeElement;
+            // indicate loading
+            ivImg.src = '';
+            ivImg.alt = alt || '';
+            viewer.classList.add('show');
+            viewer.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+
+            // load image and only display when loaded to avoid layout jump
+            const img = new Image();
+            img.onload = function(){
+                ivImg.src = src;
+                ivImg.alt = alt || '';
+                // move focus to close button for accessibility
+                ivClose.focus();
+            };
+            img.onerror = function(){
+                // fallback: show whatever src we have
+                ivImg.src = src;
+                ivClose.focus();
+            };
+            img.src = src;
+        }
+        function close(){
+            viewer.classList.remove('show');
+            viewer.setAttribute('aria-hidden', 'true');
+            ivImg.src = '';
+            document.body.style.overflow = '';
+            // restore focus
+            if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+        }
+
+        zoomables.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', (e) => {
+                // use data-full if present so you can supply higher-res images
+                const full = img.dataset && img.dataset.full ? img.dataset.full : img.currentSrc || img.src;
+                open(full, img.alt || '');
+                e.stopPropagation();
+            });
+        });
+
+        ivClose.addEventListener('click', close);
+
+        // clicking outside the image closes (backdrop only)
+        viewer.addEventListener('click', e => {
+            if (e.target === viewer) close();
+        });
+
+        // don't close when clicking the image itself
+        ivImg.addEventListener('click', function(e){
+            e.stopPropagation();
+        });
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && viewer.classList.contains('show')) close();
+        });
+    })();
+</script>
+</body>
+</html>
